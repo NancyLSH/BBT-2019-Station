@@ -1,0 +1,145 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none；
+}
+
+.buttons {
+    height: 0;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 18%;
+    width: 100%;
+}
+
+.container {
+    /* background-image: url("../pictures/5-1.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat; */
+    overflow: hidden;
+}
+
+#background{
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+
+button {
+    border-radius: 15px;
+    margin: 2% 35%;
+    width: 103px;
+    height: 28.5px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    outline: none;
+}
+
+.countPassagers {
+    width: 55%;
+    height: 3%;
+    font-size: 12px;
+    color: #D98247;
+    position: absolute;
+    left: 10%;
+    top: 39.5%;
+    overflow: hidden;
+}
+
+.destination {
+    height: 4%;
+    width: 33%;
+    top: 43%;
+    right: 14%;
+    position: absolute;
+    font-size: 19px;
+    color: #FFFFFF;
+    word-break: break-all;
+    overflow: hidden;
+}
+
+.QRcode {
+    background-image: url(../pictures/5-3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 35pt;
+    height: 35pt;
+    position: absolute;
+    right: 11%;
+    bottom: 28%;
+}
+
+.passager-name {
+    height: 4%;
+    /* height: auto; */
+    width: 42%;
+    position: absolute;
+    left: 24%;
+    top: 53%;
+    font-size: 11px;
+    color: #FFFFFF;
+    word-break: break-all;
+    overflow: scroll;
+}
+
+.message-input {
+    width: 57%;
+    height: 8%;
+    position: absolute;
+    bottom: 35%;
+    right: 19%;
+    font-size: 11px;
+    color: #FFFFFF;
+    word-break: break-all;
+    overflow: scroll;
+}
+
+#return {
+    background-color: #EA8C98;
+}
+
+#update {
+    background-color: #A2C0EA;
+}
+
+.station-name {
+    position: absolute;
+    left: 37%;
+    width: 12%;
+    height: 3%;
+    top: 43%;
+    font-size: 12px;
+    color: #FFFFFF;
+    word-break: break-all;
+    text-align: center;
+}
+.errmsg {
+    text-align: center;
+    color: #8B9EA5;
+    height: auto;
+    position: absolute;
+    bottom: 19%;
+    width: 100%;
+    display: none;
+    font-size: 13px;
+    margin-bottom: 3%;
+}
+
+#img {
+    opacity: 0;
+    overflow: hidden;
+    height: 100%;
+    width:100%;
+    position: absolute;
+    top: 0;
+}
+

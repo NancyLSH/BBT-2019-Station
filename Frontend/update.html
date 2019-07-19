@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <meta charset="UTF-8" />
+        <title>修改信息页面</title>
+        <link rel="stylesheet" type="text/css" href="./static/css/passenger.css">
+        <link rel="stylesheet" type="text/css" href="./static/css/err.css">
+        <link rel="stylesheet" type="text/css" href="./static/css/bootstrap.min.css">
+        <script type="text/javascript" src="./static/js/api.js"></script>
+        <script type="text/javascript" src="./static/js/config.js"></script>
+        <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+        <script type="text/javascript" src="./static/js/bootstrap.min.js"></script>
+        <meta name="description" content="修改信息页面">
+        <meta name="viewport"
+                content="width=device-width, initial-scale=1, maximum-scale=1,minimum-scale=1, user-scalable=no">
+        <meta name="screen-orientation" content="portrait">
+        <meta name="viewport" content="user-scalable=no, width=device-width">
+        <meta name="full-screen" content="true">
+        <link rel="shortcut icon" href="#" />
+        <meta name="csrf-token" content="{{ csrf_token() }}">
+</head>
+
+<body class="background">
+        <div class="containerr">
+                <div class="title">快来填写信息</br>制作专属车票吧</div>
+                <div class="input-box" id="passager1">乘客</br>
+                        <input type="text" name="Station[passenger1]" class="extra" id="passager-name1" value=""
+                                maxlength="6" placeholder="6个字符以内噢">
+                        <div class="add">
+                                <div class="tip">点此可继续添加噢</div>
+                                <div class="arrow"></div>
+                                <div class="add_" id="add1"></div>
+                        </div>
+                        <div class="errmsg err" id="errmsg_passenger1"></div>
+                </div>
+                <div class="input-box" id="passager2">乘客</br><input type="text" class="extra" name="Station[passenger2]"
+                                id="passager-name2" value="" maxlength="6" placeholder="6个字符以内噢">
+                        <div class="reduce" id="reduce2"></div>
+                        <div class="errmsg err" id="errmsg_passenger2"></div>
+                </div>
+                <div class="input-box" id="passager3">乘客</br><input type="text" class="extra" name="Station[passenger3]"
+                                id="passager-name3" value="" maxlength="6" placeholder="6个字符以内噢">
+                        <div class="reduce" id="reduce3"></div>
+                        <div class="errmsg err" id="errmsg_passenger3"></div>
+                </div>
+                <div class="input-box">目的地</br><input type="text" class="extra" name="Station[destination]"
+                                id="destination" value="" maxlength="5" placeholder="5个字符以内噢"></div>
+                <div class="errmsg" id="errmsg_destination"></div>
+                <div class="input-box mes">想说的话</br><textarea name="Station[comment]" rows="7" cols="50" class="message"
+                                maxlength="50" id="message" spellcheck="false" placeholder="50个字符以内噢"></textarea></div>
+                <div class="errmsg" id="errmsg_comment"></div>
+                <input class="create-ticket create" type="submit" id="update-ticket" value="生成车票">
+        </div>
+        <div class="err-box">
+                <div class="err-shadow"></div>
+                <div class="err-bg">
+                        <div class="err-text"></div><button class="err-button">知道了</button>
+                </div>
+        </div>
+
+</body>
+<script type="text/javascript" src="./static/js/update.js"></script>
+
+</html>

@@ -1,0 +1,107 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../pictures/3-1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.success-pic {
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+    margin-top: 15%;
+    height: 159pt;
+    width: 119pt;
+}
+
+.success-text {
+    width: 160pt;
+    height: 18pt;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin:7% auto;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:0 auto;
+    display: none;
+}
+
+
+.button {
+    font-family: "Microsoft YaHei Regular";
+    color: #EAEAEA;
+    height: 28.5px;
+    width:  115px;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    outline: none;
+    background-color: transparent;
+}
+
+.write-information {
+    background-color: #EA8C98;
+    margin-bottom: 20px;
+}
+
+.reselect {
+    background-color: #A2C0EA;
+}
+.introduction{
+    width: 93%;
+    height: 13%;
+    margin-bottom: 5%;
+    color: #9195A5;
+    font-size: 13pt;
+    margin: 0 auto;
+    margin-bottom: 4%;
+    text-align: left;
+}
+.mark{
+    height: 159pt;
+    width: 119pt;
+}
+
+.rich{
+    width: 197pt;
+    height: 186pt;
+    margin: 0 auto;
+}
+.love{
+    margin-right: 33%;
+}
+.hair{
+    margin: 5% auto;
+    margin-top: 15%;
+    height: 155pt;
+    width: 106pt;
+}
+.pass{
+    width: 152pt;
+    margin-left: 36%;
+}
+.thin{
+    margin-left: 35%;
+}
+
+.chicken{
+    margin-left: 35%;
+    height: 170pt;
+    width: 122pt;
+}
+

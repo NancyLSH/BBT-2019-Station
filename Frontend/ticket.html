@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>生成车票页面</title>
+    <link rel="stylesheet" type="text/css" href="./static/css/ticket.css">
+    <link rel="stylesheet" type="text/css" href="./static/css/err.css">
+    <script src="../vConsole-3.3.0/dist/vconsole.min.js"></script>
+    <script src=" https://cdn.staticfile.org/vue/2.2.2/vue.min.js"></script>
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/dom-to-image/2.6.0/dom-to-image.js"></script>
+    <script type="text/javascript" src="./static/js/api.js"></script>
+    <script type="text/javascript" src="./static/js/config.js"></script>
+    <script type="text/javascript" src="./static/js/index.js"></script>
+    <meta name="description" content="生成车票页面">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1,minimum-scale=1, user-scalable=no">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="viewport" content="user-scalable=no, width=device-width">
+    <meta name="full-screen" content="true">
+    <link rel="shortcut icon" href="#" />
+</head>
+
+<body onselectstart="return false" class="container" oncopy="return false">
+    <div id="container"></div>
+    <div class="buttons">
+        <div class="errmsg" onselectstart="return false;">长按保存图片,可到指定地点兑换活动票哦</div>
+        <button id="return">返回首页</button>
+        <button id="update">修改信息</button>
+    </div>
+    <div class="err-box">
+        <div class="err-shadow"></div>
+        <div class="err-bg">
+            <div class="err-text"></div><button class="err-button">知道了</button>
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript" src="./static/js/ticket.js"></script>
+
+</html>
